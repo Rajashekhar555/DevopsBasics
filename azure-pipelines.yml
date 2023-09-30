@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 
-  name: default
+  name: MyBuildAgent
 
 steps:
 - task: Maven@3
