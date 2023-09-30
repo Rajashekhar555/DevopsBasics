@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: MyBuildAgent
+pool: MyBuildAgent
 
 steps:
 - task: Maven@3
